@@ -1,4 +1,5 @@
 #!/bin/bash -x
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
 export HADOOP_CLIENT_OPTS="-Djline.terminal=jline.UnsupportedTerminal"
 export PYSPARK_PYTHON=/usr/bin/python
 
